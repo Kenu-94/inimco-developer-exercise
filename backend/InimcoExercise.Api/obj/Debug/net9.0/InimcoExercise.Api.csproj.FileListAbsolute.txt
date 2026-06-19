@@ -34,3 +34,4 @@ C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.A
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api\obj\Debug\net9.0\InimcoExercise.Api.pdb
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api\obj\Debug\net9.0\InimcoExercise.Api.genruntimeconfig.cache
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api\obj\Debug\net9.0\ref\InimcoExercise.Api.dll
+C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api\bin\Debug\net9.0\Data\persons.json

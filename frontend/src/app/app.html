@@ -1,0 +1,10 @@
+<main>
+  <h1>Inimco Developer Exercise</h1>
+  <app-person-form (formSubmit)="onFormSubmit($event)"></app-person-form>
+
+  @if (errorMessage) {
+  <p class="error">{{ errorMessage }}</p>
+  }
+
+  <app-result-display [result]="result"></app-result-display>
+</main>

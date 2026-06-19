@@ -1,0 +1,46 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <h2>Persoonsgegevens</h2>
+
+    <div class="field">
+        <label for="firstName">Voornaam</label>
+        <input id="firstName" formControlName="firstName" />
+        @if (form.get('firstName')?.invalid && form.get('firstName')?.touched) {
+        <span class="error">Voornaam is verplicht en mag enkel letters bevatten</span>
+        }
+    </div>
+
+    <div class="field">
+        <label for="lastName">Achternaam</label>
+        <input id="lastName" formControlName="lastName" />
+        @if (form.get('lastName')?.invalid && form.get('lastName')?.touched) {
+        <span class="error">Achternaam is verplicht en mag enkel letters bevatten</span>
+        }
+    </div>
+
+    <h3>Social Skills</h3>
+    <div formArrayName="socialSkills">
+        @for (skill of socialSkills.controls; track $index) {
+        <div class="row">
+            <input [formControlName]="$index" placeholder="bv. social, fun, coach" />
+            <button type="button" (click)="removeSkill($index)">✕</button>
+        </div>
+        }
+    </div>
+    <button type="button" (click)="addSkill()">+ Skill toevoegen</button>
+
+    <h3>Social Accounts</h3>
+    <div formArrayName="socialAccounts">
+        @for (account of socialAccounts.controls; track $index) {
+        <div class="row" [formGroupName]="$index">
+            <input formControlName="type" placeholder="Type (bv. Twitter)" />
+            <input formControlName="address" placeholder="Address (bv. @JohnDoe)" />
+            <button type="button" (click)="removeAccount($index)">✕</button>
+        </div>
+        }
+    </div>
+    <button type="button" (click)="addAccount()">+ Account toevoegen</button>
+
+    <div class="submit-row">
+        <button type="submit">Analyseer</button>
+    </div>
+</form>

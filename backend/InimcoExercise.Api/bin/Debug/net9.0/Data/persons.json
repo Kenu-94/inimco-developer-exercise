@@ -17,24 +17,5 @@
         "Address": "Linkedin.com/johndoe"
       }
     ]
-  },
-  {
-    "FirstName": "John",
-    "LastName": "Doe",
-    "SocialSkills": [
-      "Social",
-      "fun",
-      "coach"
-    ],
-    "SocialAccounts": [
-      {
-        "Type": "Twitter",
-        "Address": "@JohnDoe"
-      },
-      {
-        "Type": "Linkedin",
-        "Address": "Linkedin.com/johndoe"
-      }
-    ]
   }
 ]

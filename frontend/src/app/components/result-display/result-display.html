@@ -1,0 +1,11 @@
+@if (result) {
+<div class="result">
+    <h2>Resultaat</h2>
+    <p>The number of VOWELS: {{ result.vowelCount }}</p>
+    <p>The number of CONSONANTS: {{ result.consonantCount }}</p>
+    <p>The firstname + last name entered: {{ result.fullName }}</p>
+    <p>The reverse version of the firstname and lastname: {{ result.reversedFullName }}</p>
+    <h3>JSON format</h3>
+    <pre>{{ result.person | json }}</pre>
+</div>
+}
