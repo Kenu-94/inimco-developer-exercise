@@ -1,0 +1,21 @@
+[
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "SocialSkills": [
+      "social",
+      "fun",
+      "coach"
+    ],
+    "SocialAccounts": [
+      {
+        "Type": "Twitter",
+        "Address": "@JohnDoe"
+      },
+      {
+        "Type": "Linkedin",
+        "Address": "Linkedin.com/johndoe"
+      }
+    ]
+  }
+]
