@@ -3,9 +3,19 @@ using InimcoExercise.Api.Models;
 
 namespace InimcoExercise.Api.Repositories
 {
+
+    /// <summary>
+    /// File-based implementatie van IPersonRepository: bewaart alle personen als JSON-array
+    /// in één bestand. Voldoet aan de opdrachtvereiste van een "base repository" zonder
+    /// database-afhankelijkheid. De interface IPersonRepository laat toe dit later te
+    /// vervangen door een echte database-implementatie zonder de Service-laag te raken.
+    /// </summary>
     public class FilePersonRepository : IPersonRepository
     {
         private readonly string _filePath;
+
+        // _lock voorkomt dat twee gelijktijdige requests het JSON-bestand corrupt
+        // schrijven (race condition bij read-modify-write).
         private static readonly object _lock = new();
 
         public FilePersonRepository(IConfiguration configuration)

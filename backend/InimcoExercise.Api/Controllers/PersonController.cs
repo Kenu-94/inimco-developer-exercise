@@ -14,7 +14,13 @@ namespace InimcoExercise.Api.Controllers
         {
             _analysisService = analysisService;
         }
-
+        
+    /// <summary>
+    /// Ontvangt persoonsgegevens, valideert via DataAnnotations op het DTO,
+    /// en geeft de analyse (vowels/consonants/reverse/JSON) terug.
+    /// Validatiefouten resulteren automatisch in een 400 Bad Request via ModelState.
+    /// </summary>
+    /// 
         [HttpPost]
         public ActionResult<PersonResponseDto> Post([FromBody] PersonRequestDto request)
         {
