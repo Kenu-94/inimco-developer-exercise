@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InimcoExercise.Api", "InimcoExercise.Api\InimcoExercise.Api.csproj", "{0AE95783-FF23-4418-A645-977907B5DB48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InimcoExercise.Api.Tests", "InimcoExercise.Api.Tests\InimcoExercise.Api.Tests.csproj", "{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{0AE95783-FF23-4418-A645-977907B5DB48}.Release|x64.Build.0 = Release|Any CPU
 		{0AE95783-FF23-4418-A645-977907B5DB48}.Release|x86.ActiveCfg = Release|Any CPU
 		{0AE95783-FF23-4418-A645-977907B5DB48}.Release|x86.Build.0 = Release|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Debug|x64.Build.0 = Debug|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Release|x64.Build.0 = Release|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2737EAC-3BBB-4C15-8EFA-B16B4EDD5A2D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
