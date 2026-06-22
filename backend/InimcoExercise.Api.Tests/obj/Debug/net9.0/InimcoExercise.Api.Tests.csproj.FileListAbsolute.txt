@@ -5,7 +5,6 @@ C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.A
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\InimcoExercise.Api.runtimeconfig.json
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\appsettings.json
-C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\Data\persons.json
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\InimcoExercise.Api.staticwebassets.endpoints.json
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\InimcoExercise.Api.exe
 C:\Users\kenus\inimco-project\inimco-developer-exercise\backend\InimcoExercise.Api.Tests\bin\Debug\net9.0\testhost.exe
