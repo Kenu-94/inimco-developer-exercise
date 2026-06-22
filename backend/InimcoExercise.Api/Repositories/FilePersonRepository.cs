@@ -21,6 +21,10 @@ namespace InimcoExercise.Api.Repositories
         public FilePersonRepository(IConfiguration configuration)
         {
             _filePath = configuration["RepositorySettings:FilePath"] ?? "Data/persons.json";
+
+             // (terminal, VS Code debugger, ...) — dit voorkomt dat er meerdere kopieën ontstaan.
+            _filePath = Path.Combine(AppContext.BaseDirectory, relativePath);
+
             var directory = Path.GetDirectoryName(_filePath);
             if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
                 Directory.CreateDirectory(directory);

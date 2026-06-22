@@ -1,1 +1,12 @@
-dotnet new gitignore
+﻿## .NET build output
+bin/
+obj/
+*.user
+*.suo
+
+## Logs
+*.log
+
+## OS / editor
+.vs/
+.DS_Store
